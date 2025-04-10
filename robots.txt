@@ -1,0 +1,3 @@
+User-agent: *
+Host: https://casino-app.store/
+Sitemap: https://casino-app.store/sitemap.xml

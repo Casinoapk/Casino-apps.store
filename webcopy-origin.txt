@@ -1,0 +1,52 @@
+Uri: https://Casino-app.store/
+File Name: C:\Downloaded Web Sites\Casino-app.store\index.html
+Content Type: text/html
+
+Uri: https://Casino-app.store/wp-content/cache/autoptimize/css/autoptimize_4d27333d6097073084559bb25c22ba66.css
+File Name: C:\Downloaded Web Sites\Casino-app.store\wp-content\cache\autoptimize\css\autoptimize_4d27333d6097073084559bb25c22ba66.css
+Content Type: text/css
+
+Uri: https://Casino-app.store/wp-content/cache/autoptimize/js/autoptimize_7552c572625a70553a09b1e3e9a95801.js
+File Name: C:\Downloaded Web Sites\Casino-app.store\wp-content\cache\autoptimize\js\autoptimize_7552c572625a70553a09b1e3e9a95801.js
+Content Type: application/javascript
+
+Uri: https://Casino-app.store\wp-content\uploads\2023\06\favicon.svg
+File Name: https://Casino-app.store\wp-content\uploads\2023\06\favicon.svg
+Content Type: image/svg+xml
+
+Uri: https://Casino-app.store/wp-content/uploads/2023/06/cropped-casino-app-logo-180x180.webp
+File Name: C:\Downloaded Web Sites\Casino-app.store\wp-content\uploads\2023\06\cropped-casino-app-logo-180x180.webp
+Content Type: image/webp
+
+Uri: https://Casino-app.store/wp-content/uploads/2023/06/cropped-casino-app-logo-192x192.webp
+File Name: C:\Downloaded Web Sites\Casino-app.store\wp-content\uploads\2023\06\cropped-casino-app-logo-192x192.webp
+Content Type: image/webp
+
+Uri: https://Casino-app.store/wp-content/uploads/2023/06/cropped-casino-app-logo-32x32.webp
+File Name: C:\Downloaded Web Sites\Casino-app.store\wp-content\uploads\2023\06\cropped-casino-app-logo-32x32.webp
+Content Type: image/webp
+
+Uri: https://Casino-app.store/wp-content/uploads/2023/06/logo.webp
+File Name: C:\Downloaded Web Sites\Casino-app.store\wp-content\uploads\2023\06\logo.webp
+Content Type: image/webp
+
+Uri: https://Casino-app.store/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
+File Name: C:\Downloaded Web Sites\Casino-app.store\wp-includes\js\jquery\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://Casino-app.store/wp-json/
+File Name: C:\Downloaded Web Sites\Casino-app.store\wp-json\index.html
+Content Type: application/json
+
+Uri: https://Casino-app.store/wp-json/oembed/1.0/embed?url=https:%2F%2FCasino-app.store%2F
+File Name: C:\Downloaded Web Sites\Casino-app.store\wp-json\oembed\1.0\embed
+Content Type: application/json
+
+Uri: https://Casino-app.store/wp-json/oembed/1.0/embed?url=https:%2F%2FCasino-app.store%2F&format=xml
+File Name: C:\Downloaded Web Sites\Casino-app.store\wp-json\oembed\1.0\embed-1
+Content Type: text/xml
+
+Uri: https://Casino-app.store/wp-json/wp/v2/pages/2
+File Name: C:\Downloaded Web Sites\Casino-app.store\wp-json\wp\v2\pages\2
+Content Type: application/json
+
