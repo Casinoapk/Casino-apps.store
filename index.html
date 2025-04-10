@@ -229,38 +229,44 @@
   <script src="jquery.jSlots.js"></script>
 </head>
 <body>
-
-  <div class="slot-machine">
-    <ul class="slot">
-      <li>7</li>
-      <li>6</li>
-      <li>5</li>
-      <li>4</li>
-      <li>3</li>
-      <li>2</li>
-      <li>1</li>
-    </ul>
-    <ul class="slot">
-      <li>7</li>
-      <li>6</li>
-      <li>5</li>
-      <li>4</li>
-      <li>3</li>
-      <li>2</li>
-      <li>1</li>
-    </ul>
-    <ul class="slot">
-      <li>7</li>
-      <li>6</li>
-      <li>5</li>
-      <li>4</li>
-      <li>3</li>
-      <li>2</li>
-      <li>1</li>
-    </ul>
+  <div class="slot-container fancy">
+    <div class="slot-machine">
+      <div class="jSlots-wrapper">
+        <ul class="slot">
+          <li><span>7</span></li>
+          <li><span>6</span></li>
+          <li><span>5</span></li>
+          <li><span>4</span></li>
+          <li><span>3</span></li>
+          <li><span>2</span></li>
+          <li><span>1</span></li>
+        </ul>
+      </div>
+      <div class="jSlots-wrapper">
+        <ul class="slot">
+          <li><span>7</span></li>
+          <li><span>6</span></li>
+          <li><span>5</span></li>
+          <li><span>4</span></li>
+          <li><span>3</span></li>
+          <li><span>2</span></li>
+          <li><span>1</span></li>
+        </ul>
+      </div>
+      <div class="jSlots-wrapper">
+        <ul class="slot">
+          <li><span>7</span></li>
+          <li><span>6</span></li>
+          <li><span>5</span></li>
+          <li><span>4</span></li>
+          <li><span>3</span></li>
+          <li><span>2</span></li>
+          <li><span>1</span></li>
+        </ul>
+      </div>
+    </div>
+    <input type="button" id="playBtn" value="Play" />
   </div>
-
-  <input type="button" id="playBtn" value="Play" />
 
   <script>
     $(function () {
@@ -274,7 +280,7 @@
           console.log('Spin started!');
         },
         onEnd: function (finalNumber) {
-          console.log('Stopped at: ' + finalNumber);
+          console.log('Spin ended on: ' + finalNumber);
         }
       });
     });
