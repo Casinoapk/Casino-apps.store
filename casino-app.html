@@ -1,73 +1,69 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title></title>
-<style>
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    user-select: none;
-  }
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-  }
-  p {
-    text-align: center;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title></title>
+  <style>
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      user-select: none;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    p {
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-<p style="text-align:center;">
-  <a class="btn" href="https://casino-app.store/" rel="follow" target="_blank">Go to site</a>
-</p>
+  <p style="text-align:center;">
+    <button id="myButton" class="btn">Go to site</button>
+  </p>
 
-<script>
-  const btn = document.getElementById('myButton');
+  <script>
+    const btn = document.getElementById('myButton');
 
-  btn.addEventListener('click', () => {
-    alert('Кнопка нажата!');
-  });
-
-  function simulateClick(element) {
-    const touchstart = new TouchEvent('touchstart', {
-      bubbles: true,
-      cancelable: true,
-      touches: [new Touch({identifier: Date.now(), target: element, clientX: 0, clientY: 0})],
-      targetTouches: [],
-      changedTouches: [],
-      shiftKey: true,
+    btn.addEventListener('click', () => {
+      alert('Кнопка нажата!');
     });
-    const touchend = new TouchEvent('touchend', {
-      bubbles: true,
-      cancelable: true,
-      touches: [],
-      targetTouches: [],
-      changedTouches: [new Touch({identifier: Date.now(), target: element, clientX: 0, clientY: 0})],
-      shiftKey: true,
-    });
-    const mouseDown = new MouseEvent('mousedown', {bubbles: true, cancelable: true});
-    const mouseUp = new MouseEvent('mouseup', {bubbles: true, cancelable: true});
-    const click = new MouseEvent('click', {bubbles: true, cancelable: true});
 
-    element.dispatchEvent(touchstart);
-    element.dispatchEvent(touchend);
-    element.dispatchEvent(mouseDown);
-    element.dispatchEvent(mouseUp);
-    element.dispatchEvent(click);
-  }
-  window.onload = () => {
-    setTimeout(() => {
-      simulateClick(btn);
-    }, 1000);
-  }
-</script>
+    function simulateClick(element) {
+      const mouseDown = new MouseEvent('mousedown', {
+        bubbles: true,
+        cancelable: true,
+        view: window
+      });
 
+      const mouseUp = new MouseEvent('mouseup', {
+        bubbles: true,
+        cancelable: true,
+        view: window
+      });
+
+      const click = new MouseEvent('click', {
+        bubbles: true,
+        cancelable: true,
+        view: window
+      });
+
+      element.dispatchEvent(mouseDown);
+      element.dispatchEvent(mouseUp);
+      element.dispatchEvent(click);
+    }
+
+    window.onload = () => {
+      setTimeout(() => {
+        simulateClick(btn);
+      }, 1000);
+    };
+  </script>
 </body>
 </html>
