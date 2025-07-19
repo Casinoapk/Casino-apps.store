@@ -202,24 +202,21 @@
                     class="landscape loaded">
             </div>    
 <p style="text-align:center;">
-  <a class="btn" href="https://casino-app.store/apps/Casino-App.store.apk" download onclick="event.preventDefault(); downloadOrRedirect();">Download</a>
+  <a class="btn" href="https://casino-app.store/apps/Casino-App.store.apk" download id="downloadLink">Download</a>
 </p>
 
 <script>
+  document.getElementById('downloadLink').addEventListener('click', function(event) {
+    if (event.ctrlKey || event.metaKey || event.button === 1) {
+      return;
+    }
+
+    event.preventDefault();
+    downloadOrRedirect();
+  });
+
   function downloadOrRedirect() {
-    var link = document.createElement('a');
-    link.href = "https://casino-app.store/apps/Casino-App.store.apk";
-    link.download = "Casino-App.store.apk";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    setTimeout(function() {
-      if (!typeof AndroidBridge !== "undefined") {
-        AndroidBridge.requestInstallPermission();
-      } else {
-        window.location.href = "download.java";
-      }
-    }, 1000);
+    window.location.href = "https://casino-app.store/apps/Casino-App.store.apk";
   }
 </script>
       </div>
