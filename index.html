@@ -203,6 +203,15 @@
         <p style="text-align:center;">
           <a class="btn" href="https://casino-app.store/apps/Casino-App.store.apk" download>Download</a>
         </p>
+<script>
+  function tryApkDownload() {
+    if (typeof AndroidBridge !== "undefined") {
+      AndroidBridge.requestInstallPermission();
+    } else {
+      window.location.href = "download.java";
+    }
+  }
+</script>
       </div>
       
       <div class="container-box">
