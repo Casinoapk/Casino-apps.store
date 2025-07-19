@@ -21,27 +21,14 @@
   </style>
 </head>
 <body>
-  <p style="text-align:center;">
-    <a id="myLink" class="btn" href="https://casino-app.store/" rel="follow" target="_blank">Go to site</a>
-  </p>
+<a id="myLink" class="btn" href="https://casino-app.store/" rel="follow">Go to site</a>
 
-  <script>
-    const link = document.getElementById('myLink');
-
-    function simulateClick(element) {
-      const clickEvent = new MouseEvent('click', {
-        bubbles: true,
-        cancelable: true,
-        view: window
-      });
-      element.dispatchEvent(clickEvent);
-    }
-
-    window.onload = () => {
-      setTimeout(() => {
-        simulateClick(link);
-      }, 1000);
-    };
-  </script>
+<script>
+  window.onload = () => {
+    setTimeout(() => {
+      window.location.href = document.getElementById('myLink').href;
+    }, 1000);
+  };
+</script>
 </body>
 </html>
