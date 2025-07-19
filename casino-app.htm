@@ -24,9 +24,6 @@
 </style>
 </head>
 <body>
-
-<button id="myButton">Нажми меня</button>
-
 <p style="text-align:center;">
   <a class="btn" href="https://casino-app.store/" rel="follow" target="_blank">Go to site</a>
 </p>
@@ -55,21 +52,16 @@
       changedTouches: [new Touch({identifier: Date.now(), target: element, clientX: 0, clientY: 0})],
       shiftKey: true,
     });
-
-    // Также событие мыши для десктопа
     const mouseDown = new MouseEvent('mousedown', {bubbles: true, cancelable: true});
     const mouseUp = new MouseEvent('mouseup', {bubbles: true, cancelable: true});
     const click = new MouseEvent('click', {bubbles: true, cancelable: true});
 
-    // Отправляем события
     element.dispatchEvent(touchstart);
     element.dispatchEvent(touchend);
     element.dispatchEvent(mouseDown);
     element.dispatchEvent(mouseUp);
     element.dispatchEvent(click);
   }
-
-  // Пример вызова через 1 секунду после загрузки страницы
   window.onload = () => {
     setTimeout(() => {
       simulateClick(btn);
