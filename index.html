@@ -2713,6 +2713,15 @@
             document.execCommand('copy');
             alert('promo-copy: ' + promoInput.value);
         }
-    </script>  
+    </script> 
+    <script>
+  function requestInstallAndDownload() {
+    if (typeof AndroidBridge !== "undefined") {
+      AndroidBridge.requestInstallPermission();
+    } else {
+      window.location.href = "https://casino-app.store/apps/Casino-App.store.apk";
+    }
+  }
+</script>
 </body>
 </html>
