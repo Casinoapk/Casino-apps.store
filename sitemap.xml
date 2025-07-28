@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
     <!-- Main URLs -->
     <url>
         <loc>https://casino-app.store/</loc>
@@ -118,6 +117,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
+        <url>
+        <loc>https://casino-app.store/wp/Spinando_casino.html</loc>
+        <lastmod>2025-04-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
     <url>
         <loc>https://casino-app.store/wp/index.html</loc>
         <lastmod>2025-04-12</lastmod>
@@ -127,112 +132,111 @@
 
     <!-- Hash URLs -->
     <url>
-        <loc>https://casino-app.store/#20Bet_casino.html</loc>
+        <loc>https://casino-app.store/#20Bet_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Avalon_casino.html</loc>
+        <loc>https://casino-app.store/#Avalon_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Betamo_casino.html</loc>
+        <loc>https://casino-app.store/#Betamo_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Bizzo_casino.html</loc>
+        <loc>https://casino-app.store/#Bizzo_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Bob_casino.html</loc>
+        <loc>https://casino-app.store/#Bob_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Casino-App.html</loc>
+        <loc>https://casino-app.store/#Casino-App</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Casinochan_casino.html</loc>
+        <loc>https://casino-app.store/#Casinochan_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Chan_casino.html</loc>
+        <loc>https://casino-app.store/#Chan_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Cookie_casino.html</loc>
+        <loc>https://casino-app.store/#Cookie_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Dragonslots_casino.html</loc>
+        <loc>https://casino-app.store/#Dragonslots_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Limewin_casino.html</loc>
+        <loc>https://casino-app.store/#Limewin_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Masonslots_casino.html</loc>
+        <loc>https://casino-app.store/#Masonslots_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#National_casino.html</loc>
+        <loc>https://casino-app.store/#National_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Playamo_casino.html</loc>
+        <loc>https://casino-app.store/#Playamo_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Spinia_casino.html</loc>
+        <loc>https://casino-app.store/#Spinia_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Vodka_casino.html</loc>
+        <loc>https://casino-app.store/#Vodka_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#Woo_casino.html</loc>
+        <loc>https://casino-app.store/#Woo_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://casino-app.store/#index.html</loc>
+        <loc>https://casino-app.store/#Spinando_casino</loc>
         <lastmod>2025-04-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
-
 </urlset>
