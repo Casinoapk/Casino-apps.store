@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://casino-app.store/sitemap.xml
+Sitemap: https://spinando-casino.blogspot.com/sitemap.xml
