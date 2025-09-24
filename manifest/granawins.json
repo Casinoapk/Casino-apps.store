@@ -1,0 +1,21 @@
+{
+    "name": "BetChan Casino App",
+    "short_name": "Chan_casino",
+    "start_url": "https://casino-app.store//?app=Granawins_casino",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#990099",
+    "description": "BetChan Casino offers classic games and crypto-friendly payments.",
+    "icons": [
+        {
+            "src": "https://casino-app.store//img/chan_512.webp",
+            "type": "image/webp",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://casino-app.store//img/chan_192.webp",
+            "type": "image/webp",
+            "sizes": "512x512"
+        }
+    ]
+}
