@@ -63,8 +63,6 @@
     <script>(function () { const url = new URL(location.href); const hash = url.hash.replace('#', ''); const paramApp = url.searchParams.get('app'); const baseApp = hash || paramApp || 'Casino-app'; const appLower = baseApp.toLowerCase(); const hashCorrect = baseApp.charAt(0).toUpperCase() + baseApp.slice(1); const correctUrl = `${location.origin}${location.pathname}?app=${appLower}#${hashCorrect}`; if (location.href !== correctUrl) { location.replace(correctUrl); return; } const appName = appLower.replace(/_casino$/, ''); const manifestPath = `/manifest/${appName}.json`; const manifestLink = document.createElement('link'); manifestLink.rel = 'manifest'; manifestLink.href = manifestPath; document.head.appendChild(manifestLink); })(); </script>
     <link rel="preload" as="image" href="https://casino-app.store/img/casino-app-land899x499.webp">
     <link rel="preload" as="image" href="https://casino-app.store/img/casino-app449x899.webp">
-    <link rel="preload" as="image" href="https://casino-app.store/img/casino-app-land.webp">
-    <link rel="preload" as="image" href="https://casino-app.store/img/casino-app.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
@@ -154,7 +152,9 @@
     <link rel="amphtml" href="https://casino-app.store/wp/Cookie_casino.html" title="Cookie_casino AMP Version">
     <link rel="amphtml" href="https://casino-app.store/wp/Dragonslots_casino.html"
         title="Dragonslots_casino AMP Version">
-    <link rel="amphtml" href="https://casino-app.store/wp/Limewin_casino.html"
+    <link rel="amphtml" href="https://casino-app.store/wp/Limewin_casino.html">
+    <link rel="preload" href="https://casino-app.store/img/casino-app-land.webp" as="image">
+    <link rel="preload" href="https://casino-app.store/img/casino-app.webp" as="image">
         title="Limewin_casino AMP Version Limewin.ru">
     <link rel="amphtml" href="https://casino-app.store/wp/Masonslots_casino.html" title="Masonslots_casino AMP Version">
     <link rel="amphtml" href="https://casino-app.store/wp/National_casino.html" title="National_casino AMP Version">
@@ -338,10 +338,10 @@
             </div>
             <div class="content-image-container">
                 <div style="display: flex; justify-content: center;"><img
-                        src="https://casino-app.store/img/casino-app.webp"
+                        src="https://casino-app.store/img/casino-app.webp"loading="lazy"
                         srcset="img/casino-app.webp 1x, img/casino-app449x899.webp 2x" alt="BetAmo APK" width="299"
                         height="599" class="portrait loaded"><img
-                        src="https://casino-app.store/img/casino-app-land.webp"
+                        src="https://casino-app.store/img/casino-app-land.webp"loading="lazy"
                         srcset="img/casino-app-land.webp 1x, img/casino-app-land899x499.webp 2x" alt="BetAmo APK"
                         width="599" height="299" class="landscape loaded"></div>
                 <p style="text-align:center;"><a class="btn" href="https://casino-app.store/apps/Casino-App.store.apk"
